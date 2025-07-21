@@ -55,7 +55,7 @@ const StyledOutput=styled.div`
 `; 
 
 const Result = styled.h4<{value: string}> `
-    color: ${(props) => (props.value < 0 ? 'red' : 'black')}; 
+    color: ${(props) => (Number(props.value) < 0 ? 'red' : 'black')}; 
 `
 
 const StyledH3=styled.h3`
