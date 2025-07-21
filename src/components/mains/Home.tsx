@@ -41,7 +41,7 @@ export default function Home() {
 
                 <div id="main">
                     <div id="main-image">
-                        <StyledImage id="profile-image" src={`../../../public/profile.jpg`} alt="Emily Yang"/> <br/>
+                        <StyledImage id="profile-image" src={`/profile.jpg`} alt="Emily Yang"/> <br/>
                     </div>
 
                     <div id="main-text">
