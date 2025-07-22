@@ -20,7 +20,7 @@ export default function Footer(){
         <>
             <StyledHr/>
             <StyledFooter>
-                <StyledP>All Rights Reserved by Tamaz Davoodi <Link to="../credits/credits.html"> Credits</Link> &copy;</StyledP>
+                <StyledP>All Rights Reserved by Emily Yang <Link to="../credits/credits.html"> Credits</Link> &copy;</StyledP>
                 <div id="time-date"></div>
             </StyledFooter>
         </>
