@@ -17,9 +17,9 @@ const StyledH2=styled.h2`
     color: rgb(214, 81, 19); 
 `; 
 
-const StyledH4=styled.h4`
-    font-size: calc(2px + 1.5vh); 
-`; 
+// const StyledH4=styled.h4`
+//     font-size: calc(2px + 1.5vh); 
+// `; 
 
 const StyledP=styled.p`
     font-size: calc(2px + 1.9vh); 
@@ -47,10 +47,6 @@ const HorizontalLine = styled.hr`
     
 `; 
 
-const StyledUlnoDOT = styled.ul`
-    list-style-type: none; 
-
-`; 
 
 export default function Home() {
     return (
