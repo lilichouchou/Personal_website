@@ -22,7 +22,7 @@ const StyledP=styled.p`
 `; 
 
 
-export default function Works() {
+export default function Research() {
     return (
         <>
             <title>Works | Resume</title>

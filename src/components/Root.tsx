@@ -3,11 +3,11 @@ import Nav from "./Nav.tsx";
 import Footer from "./Footer.tsx";
 import {Routes, Route} from "react-router";
 import Home from "./mains/Home.tsx";
-import Edu from "./mains/Edu.tsx";
-import Skills from "./mains/Skills.tsx"; 
-import Projects from "./mains/Projects.tsx";
-import Exp from "./mains/Exp.tsx";
-import Works from "./mains/Works.tsx";
+import Teaching from "./mains/Teaching.tsx";
+import Research from "./mains/Research.tsx"; 
+import AboutMe from "./mains/AboutMe.tsx";
+import Mentoring from "./mains/Mentoring.tsx"; 
+import Miscellaneous from "./mains/Miscellaneous.tsx";
 import styled from "styled-components";
 
 const Wrapper=styled.div`
@@ -19,13 +19,13 @@ const Wrapper=styled.div`
 
 const Container=styled.div`
     display: flex; 
-    flex-direction: row; 
+    flex-direction: column;  // can be ROW
     
     
-    @media screen and (max-width: 1000px) {
-        display: flex;
-        flex-direction: column;
-    }
+    // @media screen and (max-width: 1000px) {
+    //     display: flex;
+    //     flex-direction: column;
+    // }
 `;
 
 export default function Root(){
@@ -41,28 +41,28 @@ export default function Root(){
                     />
                     
                     <Route
-                        path={`/education.html`}
-                        element={<Edu/>}
+                        path={`/AboutMe.html`}
+                        element={<AboutMe/>}
                     /> 
 
                     <Route
-                        path={`/skills.html`}
-                        element={<Skills/>}
+                        path={`/Mentoring.html`}
+                        element={<Mentoring/>}
                     /> 
 
                     <Route
-                        path={`/projects.html`}
-                        element={<Projects/>}
+                        path={`/Teaching.html`}
+                        element={<Teaching/>}
                     /> 
 
                     <Route
-                        path={`/experiences.html`}
-                        element={<Exp/>}
+                        path={`/Research.html`}
+                        element={<Research/>}
                     /> 
 
                     <Route
-                        path={`/works.html`}
-                        element={<Works/>}
+                        path={`/Miscellaneous.html`}
+                        element={<Miscellaneous/>}
                     /> 
 
                 </Routes>

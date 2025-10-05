@@ -22,7 +22,7 @@ const StyledP=styled.p`
 `; 
 
 
-export default function Skills() {
+export default function Mentoring() {
     return (
         <>
             <title>Skills | Resume</title>

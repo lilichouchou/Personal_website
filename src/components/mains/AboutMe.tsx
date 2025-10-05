@@ -31,10 +31,12 @@ const StyledProject=styled.li`
     margin-top: 1.6%; 
 `; 
 
-export default function Projects() {
+export default function AboutMe() {
     return (
         <>
-            <title>Projects | Resume</title>
+            {/* this is shown on the title tab */}
+            <title>Projects | Resume</title>     
+            
             <StyledProjects id="main-content">
                 <StyledH2 id="main-title">Projects</StyledH2>
                 <br/>
